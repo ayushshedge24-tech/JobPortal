@@ -1,0 +1,34 @@
+/**
+ * Career Intelligence Constants
+ * JobPortal 2.0 — Phase 4H Candidate Career Intelligence Workspace
+ */
+
+const CAREER_INTELLIGENCE_VERSION = "1.0.0";
+
+const ACTION_SOURCES = Object.freeze({
+  PROFILE: "PROFILE",
+  RESUME_ANALYZER: "RESUME_ANALYZER",
+  SKILL_INTELLIGENCE: "SKILL_INTELLIGENCE",
+  JOB_MATCHING: "JOB_MATCHING",
+});
+
+const ACTION_PRIORITIES = Object.freeze({
+  HIGH: "HIGH",
+  MEDIUM: "MEDIUM",
+  LOW: "LOW",
+});
+
+const RESUME_READINESS_STATUS = Object.freeze({
+  EXCELLENT: "EXCELLENT",
+  GOOD: "GOOD",
+  NEEDS_ATTENTION: "NEEDS_ATTENTION",
+  INCOMPLETE: "INCOMPLETE",
+  NO_RESUME: "NO_RESUME",
+});
+
+module.exports = {
+  CAREER_INTELLIGENCE_VERSION,
+  ACTION_SOURCES,
+  ACTION_PRIORITIES,
+  RESUME_READINESS_STATUS,
+};
